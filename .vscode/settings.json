@@ -1,0 +1,22 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.deFaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.format": true
+  },
+  "eslint.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [
+    "typescript",
+    "typescriptreact",
+    "javascript",
+    "javascriptreact"
+  ],
+  "eslint.workingDirectories": [
+    { "directory": "packages/next-site", "changeProcessCWD": true },
+    { "directory": "packages/react-site", "changeProcessCWD": true },
+    { "directory": "packages/components", "changeProcessCWD": true }
+  ]
+}
